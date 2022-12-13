@@ -45,8 +45,8 @@ export class NoteViewComponent implements OnInit {
     this.noteService.getNotes().subscribe({
       next:data=>{
         this.notes=data;
-        // console.log(this.notes)
-        // alert("Hello")
+        console.log(this.notes)
+        alert("Hello")
       },
       error:e=>{
       alert("Failed to Fetch Blog due to Network Error");

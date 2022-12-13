@@ -9,3 +9,7 @@ note{
     /* box-shadow: 4px 4px lightblue; */
     border-radius: 20px;
 }
+.bg-primary{
+    margin-top: 10px;
+    margin-left: 1000px;
+}

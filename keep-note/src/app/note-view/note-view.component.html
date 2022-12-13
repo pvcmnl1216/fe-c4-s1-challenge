@@ -4,13 +4,13 @@
 
 <div id="note">
    
-    <button mat-icon-button  class="bg-primary">
-        <mat-icon class="text-white" fontIcon="add-circle" color="primary" (click)="open()"></mat-icon>
+    <button mat-icon-button  class="bg-primary" (click)="open()">
+        <mat-icon class="text-white" fontIcon="add-circle" color="primary" ></mat-icon>
     </button>
 
 
 <ng-template [ngIf]="flag">
-<app-add-note ></app-add-note>
+<app-add-note></app-add-note>
 </ng-template>
 
 </div>

@@ -1,7 +1,7 @@
 <h2 id="addnote">Add New Notes</h2>
-<form>
 
-      <form class="example-form">
+
+     
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Title</mat-label>
           <input name="name" matInput placeholder="start here..."  [(ngModel)]="note.title">
@@ -11,7 +11,6 @@
           <mat-label>Content</mat-label>
           <textarea name="content" matInput placeholder="Ex. It makes me feel..." [(ngModel)]="note.content"></textarea>
         </mat-form-field>
-      </form>
+      
     
 <button (click)="saveNotes()">Save</button>
-</form>
