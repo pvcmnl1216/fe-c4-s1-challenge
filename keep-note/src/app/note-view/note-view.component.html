@@ -1,0 +1,16 @@
+<app-search (searchTextChanged)="search($event)"></app-search>
+<app-note  *ngFor="let contact of notes" [contact] = "contact" ></app-note>
+
+
+<div id="note">
+   
+    <button mat-icon-button  class="bg-primary">
+        <mat-icon class="text-white" fontIcon="add-circle" color="primary" (click)="open()"></mat-icon>
+    </button>
+
+
+<ng-template [ngIf]="flag">
+<app-add-note ></app-add-note>
+</ng-template>
+
+</div>

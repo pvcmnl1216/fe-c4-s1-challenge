@@ -1,0 +1,11 @@
+note{
+    /* border: 3px solid lightblue; */
+    width: 200px;
+    height: 200px; 
+    position:absolute;
+    top: 650px;
+    right:50px;   
+    text-align: center;
+    /* box-shadow: 4px 4px lightblue; */
+    border-radius: 20px;
+}
